@@ -12,6 +12,9 @@ Example records JSON will look as follows:
 {“user”: “B”, “timestamp”:”2017-12-20 11:22:18”, ”evtname”:”tutorial”}  
 {“user”: “A”, “timestamp”:”2017-12-20 18:20:10”, “spend”:”9.99”,”evtname”:”iap”}  
 
+Spark Streaming processing log:  
+![Image of Spark log](https://github.com/dmitrylyk/S3-Data-Processing/blob/main/img/spark_log.png)
+
 Output (AWS RDS Database):  
 table users  
 ![Image of table users](https://github.com/dmitrylyk/S3-Data-Processing/blob/main/img/tableusers_info.png)  
